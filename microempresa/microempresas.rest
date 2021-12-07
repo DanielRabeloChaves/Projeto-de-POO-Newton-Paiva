@@ -1,42 +1,42 @@
 ### GET
-GET http://localhost:8080/microEmpresa
+GET http://localhost:8080/microEmpresas
 
 ### GET
-GET http://localhost:8080/microEmpresa/1234
+GET http://localhost:8080/microEmpresas/1234
 
 ### POST
-POST http://localhost:8080/microEmpresa
+POST http://localhost:8080/microEmpresas
 Content-Type: application/json
 
 {
     "nome": "Daniel",
     "cnpj": "XXXXXXXXXX",
-    "email": "danielrabelochaves@gmailcom",
+    "email": "danielrabelochaves@gmailcom"
 }
 
 ### GET
-GET http://localhost:8080/microEmpresa/614912fdd6f4a17e614d5fa5
+GET http://localhost:8080/microEmpresas/61aeb800e2e94538ec9f7dd9
 
 
 ### PUT
-PUT http://localhost:8080/microEmpresa/615babb06e54196e311d547f
+PUT http://localhost:8080/microEmpresas/61aeb804e2e94538ec9f7dda
 Content-Type: application/json
 
 {
     "nome": "Diego Rafael Rabelo",
     "cnpj": "XX. XXX. XXX/0002-XX",
-    "email": "diegorafael@gmail.com",
+    "email": "diegorafael@gmail.com"
 }
 
 ### PUT - NOT FOUND
-PUT http://localhost:8080/microEmpresa/615bb5801809971abda5d613
+PUT http://localhost:8080/microEmpresas/61aeb805e2e94538ec9f7ddb
 Content-Type: application/json
 
 {
     "nome": "Alan Rabelo Chaves",
     "cnpj": "XX. XXX. XXX/0003-XX",
-    "email": "alanrabelo@gmail.com",
+    "email": "alanrabelo@gmail.com"
 }
 
 ### DELETE
-DELETE http://localhost:8080/microEmpresa/615bb5821809971abda5d614
+DELETE http://localhost:8080/microEmpresas/61aeb805e2e94538ec9f7ddc
